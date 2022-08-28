@@ -1,0 +1,103 @@
+[
+    
+    {
+        "QNo": 1,
+        "Ques": "Which among the following is not a security / privacy risk?",
+        "Opt1": "A: Spam",
+        "Opt2": "B: Virus",
+        "Opt3": "C: Hacking",
+        "Opt4": "D: Phishing",
+        "Answ": "A",
+        "Expn": "Spam is any kind of unwanted, unsolicited digital communications. They are sent in bulk. The Spam today is becoming a serious threat."
+    },
+    {
+        "QNo": 2,
+        "Ques": "What is the use of Digitizer as an input device?",
+        "Opt1": "A: To Convert graphic and pictorial data into binary inputs",
+        "Opt2": "B: To Convert graphic and pictorial data into analog inputs",
+        "Opt3": "C: Debugging",
+        "Opt4": "D: None of Above",
+        "Answ": "A",
+        "Expn": "A digitizer is the device which improves touch accuracy is embedded in the screens of tablets and smart phones. Other devices use a digitizer device such as a stylus to allow users to specify locations on the display more precisely. There are three types of touch-screen digitizers: passive, active and dual."
+    },
+    {
+        "QNo": 3,
+        "Ques": "While browsing internet, what do we call the area of storage that compensates for the different speeds of data flow or timings of events by temporarily holding a block of data that is waiting to be processed?",
+        "Opt1": "A: Cache",
+        "Opt2": "B: Buffer",
+        "Opt3": "C: Flash",
+        "Opt4": "D: Trash",
+        "Answ": "B",
+        "Expn": "Buffering refers to downloading a certain amount of data before starting to play the music or movie. It manages the downloading data and temporarily holds the data as well."
+    },
+    {
+        "QNo": 4,
+        "Ques": "Which among the following is NOT a web browser?",
+        "Opt1": "A: SpaceTime",
+        "Opt2": "B: NeoPlanet",
+        "Opt3": "C: Sputnik",
+        "Opt4": "D: MeeGo",
+        "Answ": "D",
+        "Expn": "MeeGo is not a web browser. It is a discontinued Linux distribution hosted by the Linux Foundation, using source code from the operating systems Moblin and Maemo."
+    },
+    {
+        "QNo": 5,
+        "Ques": "In the Windows XP, what does XP stands for?",
+        "Opt1": "A: Extra-Powerful",
+        "Opt2": "B: Experience",
+        "Opt3": "C: Extended Platfoem",
+        "Opt4": "D: Experience Platform",
+        "Answ": "B",
+        "Expn": "Windows XP is an operating system introduced in 2001. It is from Microsoft’s Windows. The “XP” in Windows XP stands for eXPerience. Microsoft called the XP release its one of the most important product."
+    },
+    {
+        "QNo": 6,
+        "Ques": "Which among the following is the correct order in which popular company Apple released them?",
+        "Opt1": "A: Mac, iPod, iPad, iPhone",
+        "Opt2": "B: Mac, iPhone, iPod, iPad",
+        "Opt3": "C: Mac, iPod, iPhone, iPad",
+        "Opt4": "D: Mac, iPad, ipod, iPhone",
+        "Answ": "C",
+        "Expn": "The following is the correct order: Mac was introduced in 1984,Ipod was introduced in 2001,Iphone was introduced in 2007,Ipad was introduced in 2010"
+    },
+    {
+        "QNo": 7,
+        "Ques": "Which of the following is the processing unit of the computer?",
+        "Opt1": "A: CPU",
+        "Opt2": "B: Memory",
+        "Opt3": "C: Graphic Card",
+        "Opt4": "D: Mother Board",
+        "Answ": "A",
+        "Expn": "A modern computer consists of at least one processing element called the Central Processing Unit or CPU.        "
+    },
+    {
+        "QNo": 8,
+        "Ques": "Which of the following lies within the CPU?",
+        "Opt1": "A: Primary Memory",
+        "Opt2": "B: Secondary Memory",
+        "Opt3": "C: Mouse",
+        "Opt4": "D: Keyboard",
+        "Answ": "A",
+        "Expn": "All input data and instructions are stored in the memory which is of two types-primary memory and the secondary memory.  Primary memory resides within the CPU while the secondary memory is external to it."
+    },
+    {
+        "QNo": 9,
+        "Ques": "Which of the following comprise the hardware components of the computer?",
+        "Opt1": "A: Printer",
+        "Opt2": "B: Keyboard",
+        "Opt3": "C: Mouse",
+        "Opt4": "D: All of Above",
+        "Answ": "D",
+        "Expn": "The components of the computer which we can see and touch are called the hardware components of the computer.  They include devices like keyboard, mouse,  printer etc."
+    },
+    {
+        "QNo": 10,
+        "Ques": "What parts did the first Analytical Engine incorporate which made it the first design for a general-purpose computer?",
+        "Opt1": "A: Integrated memory",
+        "Opt2": "B: Arithmetic Logic Unit",
+        "Opt3": "C: Control Flow",
+        "Opt4": "D: All of Above",
+        "Answ": "D",
+        "Expn": "The Analytical Engine incorporated an Integrated memory, Arithmetic Logic Unit, Control Flow in form of conditional branching and loops which made it the first design for a general purpose computer."
+    }
+]

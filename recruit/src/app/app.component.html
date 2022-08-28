@@ -1,0 +1,102 @@
+
+<h1>ONLINE ASSESSMENT TEST</h1>
+<hr/>
+<hr/>
+<h2>Questions for Exam:</h2>
+
+  <ul *ngFor="let question of questions;let i=index;">
+    <li>
+        <h3>Q{{i+1}}. {{question.Ques}}</h3>
+        <label style="font-weight: bold;">
+          <input type="radio" name="radiogrp{{question.QNo}}"  id="radiogroup{{question.QNo}}Opt1" (click)="setYourAns(question.QNo,'A')" value="A"/>
+          {{question.Opt1}}
+        </label>
+        <br/>
+        <label style="font-weight: bold;">
+          <input type="radio" name="radiogrp{{question.QNo}}" id="radiogroup{{question.QNo}}Opt2" (click)="setYourAns(question.QNo,'B')" value="B"/>
+          {{question.Opt2}}
+        </label>
+        <br/>
+        <label style="font-weight: bold;">
+          <input type="radio" name="radiogrp{{question.QNo}}" id="radiogroup{{question.QNo}}Opt3" (click)="setYourAns(question.QNo,'C')" value="C"/>
+          {{question.Opt3}}
+        </label>
+        <br/>
+        <label style="font-weight: bold;">
+          <input type="radio" name="radiogrp{{question.QNo}}" id="radiogroup{{question.QNo}}Opt4" (click)="setYourAns(question.QNo,'D')" value="D"/>
+          {{question.Opt4}}
+        </label>
+        <br>
+        <br>
+
+        <!-- <mat-radio-group id="group{{question.QNo}}" [(ngModel)] = "questions[i]">
+            <mat-radio-button (click)="selans(A,{{question.Answ}})" value="A">{{question.Opt1}}</mat-radio-button>
+            <mat-radio-button (click)="selans(B,{{question.Answ}})" value="B">{{question.Opt2}}</mat-radio-button>
+            <mat-radio-button (click)="selans(C,{{question.Answ}})" value="C">{{question.Opt3}}</mat-radio-button>
+            <mat-radio-button (click)="selans(D,{{question.Answ}})" value="D">{{question.Opt4}}</mat-radio-button>
+          </mat-radio-group> -->
+        <!-- <hr>
+        <hr> -->
+
+        Your Answer:
+        <label id="yourans{{question.QNo}}" style="color: red; font-weight: bold;" >
+          Not Answered Yet!
+        </label> &nbsp; &nbsp;
+        <input type="button" id="clearans{{question.QNo}}" style=" color:red; font-weight: bolder; font-size:medium;" (click)="clearSelAns(question.QNo);" value="x" />        
+        <br/>
+        <span id="answersexpn{{question.QNo}}" style="display: none;">
+          Correct Answer: 
+          <label id="correctans{{question.QNo}}">
+            {{question.Answ}}
+          </label> 
+          <br/>
+          <label>
+            Explanation: {{question.Expn}}
+          </label>
+          <br/>
+        </span>
+          <hr>
+          <hr>
+    </li>
+  </ul>
+  
+  <!-- For Declaration of Results -->
+  <table id="resultdecn" style=" display: none; margin: auto;">
+  <tr>
+  <td style="margin:auto; font-size: x-large; font-weight: bolder;">
+    RESULT :
+  </td>
+  <td style=" text-align: left; font-size: large; font-weight: bold;">    
+    Passing Percentage = 70%
+    <br>
+    marks needed to Pass  = 
+    <label id="marksneededlbl" style="color: green;">
+      70% of questions
+    </label>
+    <br/>
+    Your Score =
+    <label id="marksobtainedlbl" style="font-size: medium; font-weight: bold;">
+    count value
+    </label>
+    <br/>
+    Your Result = 
+    <label id="resultlbl" style=" font-weight: bolder; font-size: larger;">
+    Final Result
+    </label>
+  </td>  
+  </tr>  
+  </table>
+
+  <!-- For Submit and Reset Buttons -->
+  <table id="testsubmitted" style="margin:auto;">
+  <tr >
+    <td>  
+      <input type="button" id="submittestbtn" style="margin:auto; font-weight: bolder; font-size: 2pc; display:block;" value="SUBMIT TEST" (click)="YourResult()"/> 
+    </td>
+    <td>
+      <input type="button" id="resetbtn" style="margin-bottom:0px; font-weight: bolder; font-size: 1pc; display:block;" value="RESET ALL" (click)="ResetAll()"/> 
+    </td>
+  </tr>
+
+</table>
+

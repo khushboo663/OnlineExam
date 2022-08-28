@@ -1,0 +1,252 @@
+ <!-- <span id="answersexpn{{question.QNo}}" style="display: none;"></span> -->
+        <!-- <label>
+        Your Answer: 
+        <script type="text/javascript">
+          var selans = document.querySelector('input[name="radiogrp{{question.QNo}}"]:checked').value;
+          alert("selected answer = " + selans);
+        </script>
+      </label> -->
+
+      <!-- <script type=text/javascript>
+            var selectedval = "";
+   var selected = $("input[type='radio'][name='radiogrp{{question.QNo}}']:checked");
+   if (selected.length > 0)
+   {
+selectedVal = selected.val();
+document.getelementbyid("yourans").text  = selectedval
+   }
+   
+            </script> -->
+
+
+
+
+
+      <!-- <script type="text/javascript">
+         function selans(seloption) {
+        document.getElementById("selectedans{{question.QNo}}").innerHTML = "Your Answer: " + document.querySelector('input[name="radiogrp{{question.QNo}}"]:checked').value;
+        //console.log("selected answer = " + document.querySelector('input[name="radiogrp{{question.QNo}}"]:checked').value);
+        console.log("selected answer = " + seloption);   
+      }
+        </script> -->
+
+        <!-- <p>Ng model Answer = {{question.QNo}}</p> -->
+
+        <!-- <input type="button" id="clearselectionbtn" style="margin: auto; display:block;" value="CLEAR" onclick="ClearSelection()"/> -->
+
+
+      <!-- <script type="text/javascript">
+        //         var ngmodelval = {{question.QNo}}
+        // if(angular.isString({{question.QNo}}))
+        
+        
+              // if(youransw == corransw)
+              // {
+              //   count = count+1;
+              //   console.log("count = " + count);
+              // }
+              // else
+              // {
+        
+              // }
+              </script> -->
+
+              <!-- =============.ts file below (extra code)====
+              //============================
+
+    // var radiobuttonopt1 = "radiogroup" + j + "Opt1";
+    // radiobuttonopt1 = this.radiobuttonname.replace(/^\s+|\s+$/g,"");
+    // var radiooption1 = window.document.getElementById(this.radiobuttonname.toString())
+    // if(radiooption1 === null)
+    // {
+    //   alert("Sorry, Something went Wrong!");
+    // }
+    // else
+    // {
+    //   radiooption1.style.display = "block";
+    // }
+
+    // // if(document.getElementById != null){
+    // document?.getElementById(radiobuttonname.toString()).style.display 
+    // = "block";
+    // }
+    //  let currentques  = this.questions[j];
+    //  document.write("" + currentques);
+    //
+    // document.querySelector('label[name="yourans{{currentques.QNo}}"]').innerHTML = "";
+    //this.questionnum = "radiogroup" + j + "Opt1";
+    //document.querySelector('input[name=this.radiobuttonname]:checked').value;
+        
+   // document.write("" + document.getElementById("radiogroup" + j + "Opt1").innerHTML);
+
+    //document.write("id  = radiogroup" + j + "Opt1");
+    
+   //document.write("Length of Json is : " + this.questions.length);
+
+
+
+
+    //this.lastquesno = document.getElementById("lastquesnum").innerHTML;
+    // console.log("clicked");
+    // var app = angular.module('myApp', []);
+    // app.controller('myCtrl', function($scope)
+    // {
+    //  // $lastquesno = $scope.question.QNo;
+    //  document.write($scope.question.QNo);
+    // }) -->
+
+    <!-- //------extra below
+  Onchange()
+  {
+
+    // lastquesno = document.querySelector('label[name="yourans{{question.QNo}}"]').innerHTML;
+            
+    // alert("last question no is " + lastquesno);
+  }
+
+  // ClearSelection()
+  // {
+  //   //once submit test is clicked , the clear selection button will be disabled or hidden
+  //   //i.e. change it to display=none
+  //   alert("do you want to remove all your selected answers ?");
+  //   //here yes and no , two buttons will appear and then on clicking yes
+  //   //all options will be removed that is all radio buttons will be unchecked
+  //   //on clicking no, nothing will happen and the person can continue with
+  //   //selecting answers or cicking submit as per his wish.
+  //   this.selectedanswer = "";
+  //   this.clearanswer = true;
+  //   //if clearanswer = true then
+  //   // run ngfor loop as previously done and explicitly
+  //   // do all radiobuttons unchecked
+  // }
+}
+
+
+
+// function selans(string seloption) {
+// //document.getElementById("selectedans{{question.QNo}}").innerHTML = "Your Answer: " + document.querySelector('input[name="radiogrp{{question.QNo}}"]:checked').value;
+//   //console.log("selected answer = " + document.querySelector('input[name="radiogrp{{question.QNo}}"]:checked').value);
+//   console.log("selected answer = " + seloption); 
+// } -->
+
+<!-- <ul *ngFor="let question of questions;let i=index;">
+    <h5>Q{{question.QNo}}. {{question.Ques}}</h5>
+    <script type="text/javascript">
+    document.write("lastquesno" + i);
+  </script>
+  </ul> -->
+
+  <!-- <script type="text/javascript">
+  var lastquesno = 0;
+  document.write("last question : ");
+ // alert("last question : " + lastquesno);
+</script>  -->
+<!-- <div ng-app="myApp" ng-controller="myCtrl"> -->
+
+  <!-- <div *ngIf="SubmitClicked; then ShowExplanation; else HideExplanations"></div>
+<ng-template #HideExplanations>
+</ng-template> -->
+
+
+          <!-- If {{question.QNo}} is integer then keep your anser ="Not Yet answered"
+          else if {{question.QNo}} is string keep your answer = {{question.QNo}} -->
+
+          <!-- <div *ngIf="SubmitClicked; then ShowResult;"></div> -->
+          <!-- <ng-template #ShowResult> -->
+
+            <!-- <script type="text/javascript">
+            var selans = document.querySelector('label[name="yourans{{question.QNo}}"]').innerHTML;
+            alert("selected answer = " + selans);
+            lastquesno = document.querySelector('label[name="yourans{{question.QNo}}"]').innerHTML;
+            alert("selected answer = " + selans);
+            questionnum = 10;
+            document.write("question no. = " + questionnum);
+          </script> -->
+
+          <!-- <script>
+            questionnum = {{question.QNo}};
+              </script> -->
+        <!-- </ng-template>
+        <ng-template #HideResult> -->
+          <!-- <script>
+            document.getElementById("answersexpn{{question.QNo}}").innerText = "";
+          </script> -->
+          <!-- </ng-template> -->
+
+          <!-- </div> -->
+  <!-- <script type="text/javascript">
+    lastquesno = document.querySelector('label[name="yourans{{question.QNo}}"]').innerHTML;
+            
+    alert("last question no is " + lastquesno);
+  </script> -->
+
+<!-- <div *ngIf="SubmitClicked; then ShowResult;"></div>
+          <ng-template #ShowResult>
+            <hr/>
+          <p id="answersexpn{{question.QNo}}">
+          <label>
+            Your Answer:
+          </label>
+          <label>
+           {{questions[i]}}
+          </label>
+          <br/>
+          <label>
+            Correct Answer: {{question.Answ}}
+          </label>
+          <br/>
+          <label>
+            Explanation: {{question.Expn}}
+          </label>
+           <br/>
+          </p>
+
+          <hr/>
+
+          <script type="text/Javascript">
+    if(this.count >= 7)
+    {
+      this.result = "PASS";
+    }
+   else
+   {
+     this.result = "FAIL";
+   }
+  </script>
+      <p id="resultdecn" style="margin-left:5%;">
+        Your Marks (out of 10) =
+        <label id="markslbl">
+          <script type="text/Javascript">
+          this.count
+          </script>
+          </label>
+          <br/>
+              Your Result =
+              <label id="resultlbl">
+                <script type="text/Javascript">
+              this.result
+              </script>
+              </label>
+              </p>
+  </ng-template> -->
+
+  <!-- <script type="text/javascript">
+  var lastquesno = 0;
+  document.write("last question : ");
+ // alert("last question : " + lastquesno);
+</script> -->
+
+//questionnum = "";
+  //clearanswer = false;
+  // j:number = 0;
+  //lastquesno = "";
+
+  //var questions = null;
+//questions: questionlist[] = questionsinfo;/
+/data = new AppData('');
+  // selectedanswer : string = "Not Answered Yet"
+  
+ // alert("last question : " + lastquesno);
+
+ //import { AppData } from './AppData';
+//import { NgForm } from '@angular/forms';
